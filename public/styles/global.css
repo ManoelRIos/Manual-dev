@@ -53,7 +53,8 @@ body, button, input, textarea, h2, p, span{
 body{
   display: grid;
   gap: 2rem 0;
-  background-color: #F2E7FA;
+  background-color: 
+  ;
 }
 
 .sr-only {
@@ -95,6 +96,10 @@ header nav.bar {
   padding: 4.8rem 0;
 }
 
+header nav.bar .logo h2, span {
+  font-size: 2.4rem;
+}
+
 header nav.bar .logo h2 span{
   color: #2ce7a6;
 }
@@ -132,8 +137,8 @@ header nav.bar .search input::placeholder {
 }
 
 header #main-news {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
   gap: 6.4rem;
 }
 
@@ -172,8 +177,8 @@ header #main-news {
 }
 
 #main-news .news-image{
-  width: 400px;
-  height: 275px;
+  min-width: 500px;
+  height: 300px;
   //Ajeitar tamanho da imagem
   background-color: var(--base-color);
   overflow: hidden;
