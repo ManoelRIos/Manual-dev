@@ -21,7 +21,7 @@ const posts = [
     id: 4,
     title: "Como usar o Git para gerenciar projetos de software",
     description: "Este tutorial ensina como usar o Git para gerenciar projetos de software de forma eficiente.",
-    image: "../../public/assets/images/posts/react.jpg"
+    image: "../../public/assets/images/posts/win11.jpg"
   },
   {
     id: 5,

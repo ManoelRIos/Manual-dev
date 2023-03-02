@@ -329,6 +329,20 @@ main .news-container {
   .container{
     padding: 0 2rem;
   }
+
+  header nav.bar {
+    display: none;
+  }
+
+  header #main-news {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  header #main-news #img img{
+    max-width: 100% !important;
+  }
+  
   
   main .news-container {
     display: grid;
