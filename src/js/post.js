@@ -25,7 +25,6 @@ function addSecondaryPosts() {
     <p class="description">
       ${posts[i].description}
     </p>
-  </div>
 </a>`;
   }
 }
