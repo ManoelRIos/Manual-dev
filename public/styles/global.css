@@ -73,8 +73,20 @@ body{
   gap: 2rem;
 }
 
+.google-ads{
+  width: 20rem;
+  height: 100%;
+  margin: 0 1rem;
+  padding: 1rem;
+  position: absolute;
+  top: 560px;
+  right: 0;
+  background-color: ;
+  border-radius: 9px;
+}
+
 .container{
-  padding: 0 20rem;
+  padding: 0 24rem;
 }
 
 /* HEADER */
