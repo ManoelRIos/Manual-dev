@@ -95,11 +95,11 @@ header nav.bar {
   padding: 4.8rem 0;
 }
 
-header nav.bar .logo h2, span {
+.logo h2, span {
   font-size: 2.4rem;
 }
 
-header nav.bar .logo h2 span{
+.logo h2 span{
   color: #2ce7a6;
 }
 
@@ -297,12 +297,13 @@ main .news-container {
 }
 
 .news-container .news #img{
-  width: 100%;
-  height:200px;
   border-radius: 9px;
+  width: 100%;
+  height: 200px;
   object-fit: cover;
   background-position: center;
 }
+
 
 
 .news-container .news span.date{
@@ -322,6 +323,34 @@ main .news-container {
 
 .news-container .news  .text p.description{
   font-size: 1.4rem;
+}
+
+footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #290742;
+  margin-top: 20rem;
+  color: var(--text-color-light);
+  border-top: 4px solid #2ce7a6;
+}
+
+footer .content {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer  .brand {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+footer .social a img {
+  color: #2ce7;
 }
 
 @media (max-width: 912px) {

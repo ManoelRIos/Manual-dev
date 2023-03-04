@@ -7,9 +7,9 @@
     <meta
       name="description"
       content="Descubra as últimas notícias e análises sobre tecnologia no nosso site. De smartphones a inteligência artificial, estamos sempre atualizados sobre as tendências e novidades tecnológicas. Leia nossos artigos e fique por dentro do mundo da tecnologia."
-    /> 
+    />
     <title>Manual - Dev</title>
-    <link rel="shortcut icon" href="./public/assets/images/Rectangle 10.png">
+    <link rel="shortcut icon" href="./public/assets/images/Rectangle 10.png" />
 
     <link rel="stylesheet" href="../public/styles/global.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,6 +18,8 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
+    <!-- ICONES -->
+    <link rel="stylesheet" href="assets/icomoon/style.css" />
   </head>
   <body>
     <header class="container">
@@ -86,7 +88,7 @@
 
       <div class="news-container">
         <div class="news">
-          <img src="../public/assets/images/Rectangle 10.png" alt="" />
+          <img id="img" src="../public/assets/images/posts/fire-tv-stick-shutterstock_1116971222.jpg" alt="" />
           <span class="date">23/02/2023</span>
 
           <div class="text">
@@ -101,7 +103,7 @@
           </div>
         </div>
         <div class="news">
-          <img src="../public/assets/images/Rectangle 10.png" alt="" />
+          <img id="img" src="../public/assets/images/posts/chatgpt.jpg" alt="" />
           <span class="date">23/02/2023</span>
 
           <div class="text">
@@ -116,7 +118,7 @@
           </div>
         </div>
         <div class="news">
-          <img src="../public/assets/images/Rectangle 10.png" alt="" />
+          <img id="img" src="../public/assets/images/posts/win11.jpg" alt="" />
           <span class="date">23/02/2023</span>
 
           <div class="text">
@@ -133,7 +135,26 @@
       </div>
     </main>
 
-    <footer class="container"></footer>
+    <footer class="container">
+      <div class="content">
+        <div class="brand">
+          <div class="logo">
+            <h2>MANUAL<span>&lt/&gt</span>DEV</h2>
+          </div>
+          <div class="text">
+            <p>@2023 Manual Dev.</p>
+            <p>Todos os direitos reservados.</p>
+          </div>
+        </div>
+
+        <div class="socials">
+          <a target='_blank' href="https://api.whatsapp.com/send?phone=5561992051941"><img src="./public/assets/icons/whatsapp.svg" alt=""></a> 
+          <a target='_blank' href="https://www.instagram.com/manual.dev/"><img src="./public//assets/icons/instagram.svg" alt=""></a>
+          <a target='_blank' href="https://www.instagram.com/manual.dev/"><img src="./public//assets/icons/facebook.svg" alt=""></a>
+          <a target='_blank' href="https://www.instagram.com/manual.dev/"><img src="./public//assets/icons/mail.svg" alt=""></a>
+        </div>
+      </div>
+    </footer>
 
     <!-- SCRIPT -->
     <script type="module" src="./src/js/post.js"></script>
