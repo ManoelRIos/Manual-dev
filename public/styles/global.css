@@ -107,7 +107,16 @@ header nav.bar {
   padding: 4.8rem 0;
 }
 
+.logo{
+  transition: .3s;
+}
+
+.logo:hover{
+  transform: translateY(-10px);
+}
+
 .logo h2, span {
+  color: #fff;
   font-size: 2.4rem;
 }
 
@@ -151,6 +160,12 @@ header #main-news {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 6.4rem;
+  transition: .3s;
+  border-radius: 9px;
+}
+
+header #main-news:hover{
+  transform: translateY(-10px);
 }
 
 
