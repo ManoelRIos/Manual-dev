@@ -165,7 +165,7 @@ header #main-news {
 }
 
 header #main-news:hover{
-  transform: translateY(-10px);
+  transform: scale(0.9);
 }
 
 
@@ -292,6 +292,7 @@ main .highlights-news .content-news .news{
 }
 
 main .highlights-news .content-news a.news:hover {
+  transform: scale(1.1);
   color: var(--base-color-dark);
   background-color: #fff;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
@@ -330,6 +331,7 @@ main .news-container {
 }
 
 .news-container .news:hover {
+  transform: translateY(-10px);
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 
 }
