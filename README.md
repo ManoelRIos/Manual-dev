@@ -1,5 +1,5 @@
 <h1 align="center">
-  <span>manual</span><span style="color: #2EB873 ">&lt/&gt</span><span>DEV</span>
+  <span>MANUAL</span><span style="color: #2EB873 ">&lt/&gt</span><span>DEV</span>
 </h1>
 
 <p align="center">
@@ -17,7 +17,7 @@
 <br>
 
 <p align="center">
- <img src="./.github/banner.PNG">
+ <img src="./github/banner.png">
 </p>
 
 ## 🚀 Tecnologias
