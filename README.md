@@ -1,5 +1,5 @@
 <h1 align="center">
-  <span>manual</span><span style="color: #2EB873 "></></span><span>DEV</span>
+  <span>manual</span><span style="color: #2EB873 ">&lt/&gt</span><span>DEV</span>
 </h1>
 
 <p align="center">
