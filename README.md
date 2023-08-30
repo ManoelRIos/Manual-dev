@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-<a href="https://manualdev.com/index.html">>MANUAL DEV</a> é um projeto que, foi desenvolvido para atualizar devs e pessoas do âmbito da tecnologia, sobre informações e tutoriais de tecnologia.
+<a href="https://manualdev.com/index.html" target="_blank">MANUAL DEV</a> é um projeto que, foi desenvolvido para atualizar devs e pessoas do âmbito da tecnologia, sobre informações e tutoriais de tecnologia.
  
 
 ## Licença
